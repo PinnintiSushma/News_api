@@ -1,16 +1,10 @@
 import {React} from 'react'
-import Main from './Poster/Main'
-import Table from './Poster/Table'
+import Fetch from './News/Fetch'
 const App = () => {
   return (
     <div>
-      
-        <Main/>
-      <div style={{marginTop:'330px'}}>
-        <Table/>
-      </div>  
-      
-</div>
+        <Fetch/>   
+  </div>
     
   )
 }
